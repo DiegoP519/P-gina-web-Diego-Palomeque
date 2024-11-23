@@ -28,15 +28,29 @@ section{
 }
 
 .arriba{
-    width: auto;
+    align-items: center;
+}
+
+.regreso{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.regreso i{
+    font-size: 80px;
+  line-height: 60px;
 }
 
 .loguito{
+    overflow: hidden;
     display: block;
-    margin-left: auto;
     margin-right: auto; 
-    height: auto;
-    width: 25%;
+    height: 50%;
+    width: 100%;
 }
 
 section h1{
